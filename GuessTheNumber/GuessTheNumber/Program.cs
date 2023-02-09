@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 
 namespace GuessTheNumber // Note: actual namespace depends on the project name.
 {
@@ -6,7 +7,14 @@ namespace GuessTheNumber // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CentroOperaciones GestorOperaciones = new CentroOperaciones();
+
+            GestorOperaciones.GenerarNumeroBot();
+
+            GestorOperaciones.IniciarJuego();
+
+
+            
         }
     }
 }
