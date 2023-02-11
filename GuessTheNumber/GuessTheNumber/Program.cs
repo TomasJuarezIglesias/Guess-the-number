@@ -9,12 +9,8 @@ namespace GuessTheNumber // Note: actual namespace depends on the project name.
         {
             CentroOperaciones GestorOperaciones = new CentroOperaciones();
 
-            GestorOperaciones.GenerarNumeroBot();
-
-            GestorOperaciones.IniciarJuego();
-
-
-            
+            GestorOperaciones.PreguntaIniciarJuego();
+  
         }
     }
 }
