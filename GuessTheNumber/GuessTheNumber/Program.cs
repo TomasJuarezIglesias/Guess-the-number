@@ -7,9 +7,8 @@ namespace GuessTheNumber // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            CentroOperaciones GestorOperaciones = new CentroOperaciones();
-
-            GestorOperaciones.PreguntaIniciarJuego();
+            PreguntaIniciarJuego preguntaIniciarJuego = new PreguntaIniciarJuego();
+            preguntaIniciarJuego.Pregunta();
   
         }
     }
